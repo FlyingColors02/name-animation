@@ -1,0 +1,239 @@
+div.AnimatedS{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    position: relative;
+    animation-name: AnimatedS;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-delay: 0s;
+
+
+}
+
+ @keyframes AnimatedS
+{
+    0%{top:0px;left:100px}
+    20%{top:0px;left:0px;background-color:green}
+    60%{top:50px;left:0px;background-color: blue;}
+    80%{top:50px;left:100px}
+    90%{top:100px;left:100px}
+    100%{top:100px;left:0px}  
+}  
+
+div.AnimatedH1{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    position: relative;
+    animation-name: AnimatedH1;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-delay: 0s;
+} 
+
+ @keyframes AnimatedH1
+{
+    0%{top:-30px;left:150px}
+    20%{top:70px;left:150px;background-color:green}
+    60%{top:20px;left:150px;background-color: blue}
+    80%{top:20px;left:250px}
+    90%{top:-30px;left:250px}
+    100%{top:70px;left:250px} 
+}  
+
+div.AnimatedR{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    position: relative;
+    animation-name: AnimatedR;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-delay: 0s;
+} 
+
+@keyframes AnimatedR
+{
+    0%{top:40px;left:300px}
+    20%{top:-60px;left:300px;background-color:green}
+    40%{top:-60px;left:400px;background-color: blue}
+    60%{top:10px;left:400px}
+    80%{top:10px;left:300px} 
+    100%{top:45px;left:400px}
+}  
+
+div.AnimatedA1{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    position: relative;
+    animation-name: AnimatedA1;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-delay: 0s;
+    
+} 
+
+@keyframes AnimatedA1
+{
+    0%{top:10px;left:450px}
+    20%{top:-90px;left:500px;background-color:green}
+    40%{top:10px;left:550px;background-color: blue}
+    70%{top:-40px;left:525px}
+    100%{top:-40px;left:475px} 
+} 
+
+div.AnimatedD1{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    position: relative;
+    animation-name: AnimatedD1;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-delay: 0s;
+    
+} 
+
+@keyframes AnimatedD1
+{
+    0%{top:-20px;left:600px}
+    20%{top:-120px;left:600px;background-color:green}
+    40%{top:-120px;left:630px;background-color: blue}
+    42%{top:-115px;left:647.52px}
+    47%{top:-110px;left:659.2px}
+    55%{top:-105px;left:670.88px}
+    57%{top:-100px;left:676.71px}
+    58%{top:-95px;left:682.56px}
+    60%{top:-90px;left:688px}
+    62%{top:-85px;left:694.24px}
+    64%{top:-80px;left:695.408px}
+    65%{top:-75px;left:697.35px}
+    70%{top:-70px;left:700px;background-color: chartreuse;}
+    72%{top:-65px;left:697.35px}
+    73%{top:-60px;left:695.408px}
+    75%{top:-55px;left:694.24px}
+    77%{top:-50px;left:688px}
+    79%{top:-45px;left:682.56px}
+    81%{top:-40px;left:676.71px}
+    83%{top:-35px;left:670.88px}
+    85%{top:-30px;left:659.2px}
+    87%{top:-25px;left:647.52px}
+    90%{top:-20px;left:630px} 
+    100%{top:-20px;left:600px}
+} 
+
+div.AnimatedD2{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    position: relative;
+    animation-name: AnimatedD2;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-delay: 0s;
+    
+} 
+
+@keyframes AnimatedD2
+{
+    0%{top:-50px;left:750px}
+    20%{top:-150px;left:750px;background-color:green}
+    40%{top:-150px;left:780px;background-color: blue}
+    42%{top:-145px;left:797.52px}
+    47%{top:-140px;left:809.2px}
+    55%{top:-135px;left:820.88px}
+    57%{top:-130px;left:826.71px}
+    58%{top:-125px;left:832.56px}
+    60%{top:-120px;left:838px}
+    62%{top:-115px;left:844.24px}
+    64%{top:-110px;left:845.408px}
+    65%{top:-105px;left:847.35px}
+    70%{top:-100px;left:850px;background-color: chartreuse;}
+    72%{top:-95px;left:847.35px}
+    73%{top:-90px;left:845.408px}
+    75%{top:-85px;left:844.24px}
+    77%{top:-80px;left:838px}
+    79%{top:-75px;left:832.56px}
+    81%{top:-70px;left:826.71px}
+    83%{top:-65px;left:820.88px}
+    85%{top:-60px;left:809.2px}
+    87%{top:-55px;left:797.52px}
+    90%{top:-50px;left:780px} 
+    100%{top:-50px;left:750px}
+} 
+
+div.AnimatedH2{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    position: relative;
+    animation-name: AnimatedH2;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-delay: 0s;
+} 
+
+ @keyframes AnimatedH2
+{
+    0%{top:-80px;left:900px}
+    20%{top:-180px;left:900px;background-color:green}
+    60%{top:-130px;left:900px;background-color: blue}
+    80%{top:-130px;left:1000px}
+    90%{top:-180px;left:1000px}
+    100%{top:-80px;left:1000px} 
+}  
+
+div.AnimatedA2{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    position: relative;
+    animation-name: AnimatedA2;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-delay: 0s;
+    
+} 
+
+@keyframes AnimatedA2
+{
+    0%{top:-110px;left:1050px}
+    20%{top:-210px;left:1100px;background-color:green}
+    40%{top:-110px;left:1150px;background-color: blue}
+    70%{top:-160px;left:1125px}
+    100%{top:-160px;left:1075px} 
+} 
